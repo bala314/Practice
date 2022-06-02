@@ -1,0 +1,9 @@
+[debug] downloaded https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom
+[debug] downloaded https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.6.4/hadoop-mapreduce-client-2.6.4.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.6.4/hadoop-project-2.6.4.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.6.4/hadoop-main-2.6.4.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.4/hadoop-yarn-common-2.6.4.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn/2.6.4/hadoop-yarn-2.6.4.pom
