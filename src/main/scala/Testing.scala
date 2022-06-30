@@ -3,24 +3,39 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.expressions.Window.{orderBy, partitionBy}
 import org.apache.spark.sql.functions.{dense_rank, desc, row_number}
+import com.typesafe.config.ConfigFactory
 
 object Testing{
   def main(args : Array[String]): Unit = {
+
+    val props = ConfigFactory.load()
+    val envprops = props.getConfig(args(0))
+
+
     val spark = SparkSession.builder().
       appName("Testing Dataframes").
       master("local").
+     // enableHiveSupport().
       getOrCreate()
 
+    val inputEmp = envprops.getString("input.emp")
+    val inputDept = envprops.getString("input.dept")
+
    spark.sparkContext.setLogLevel("ERROR")
+    val logger = Logger.getLogger(this.getClass.getName)
+    logger.info("dataframe operations started")
 
 
-
-val df1 = spark.read.option("header","true").option("inferschema","true").csv("file:///C://Users//b0p03a0//Desktop//emp.txt")
+val df1 = spark.read.option("header","true").option("inferschema","true").csv(inputEmp)
 
     df1.printSchema()
     df1.show()
+  //  df1.write
+  //    .saveAsTable("sample.emp_details")
 
-    val df2 = spark.read.option("header","true").option("inferschema","true").csv("file:///C://Users//b0p03a0//Desktop//dept.txt")
+    logger.info("no errors in df1")
+
+   /* val df2 = spark.read.option("header","true").option("inferschema","true").csv(inputDept)
     df2.printSchema()
     df2.show()
 
@@ -56,9 +71,10 @@ val df1 = spark.read.option("header","true").option("inferschema","true").csv("f
     wrank.filter(wrank("dense_rank") === "2").show()
 
 
+    */
 
-    val inidata = spark.read.option("multiline","true").json("file:///c://users//b0p03a0//desktop//colours.json")
-    inidata.show()
+    // val inidata = spark.read.option("multiline","true").json("file:///c://users//b0p03a0//desktop//colours.json")
+    // inidata.show()
 
   }
 }
