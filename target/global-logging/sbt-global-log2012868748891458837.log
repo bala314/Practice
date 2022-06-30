@@ -1,0 +1,10 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes ...
+[info] Non-compiled module 'compiler-bridge_2.11' for Scala 2.11.12. Compiling...
+[info]   Compilation completed in 21.835s.
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[success] Total time: 39 s, completed Jun 14, 2022 3:54:58 PM
+[debug] > Exec(idea-shell, None, None)

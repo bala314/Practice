@@ -1,0 +1,21 @@
+[debug] Packaging C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\practice_2.11-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	application.properties
+[debug] 	  C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes\application.properties
+[debug] 	com
+[debug] 	  C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes\com
+[debug] 	com\bala
+[debug] 	  C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes\com\bala
+[debug] 	com\bala\scala
+[debug] 	  C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes\com\bala\scala
+[debug] 	com\bala\scala\Sample_programs$$anonfun$facto$1$1.class
+[debug] 	  C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes\com\bala\scala\Sample_programs$$anonfun$facto$1$1.class
+[debug] 	com\bala\scala\Sample_programs$.class
+[debug] 	  C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes\com\bala\scala\Sample_programs$.class
+[debug] 	com\bala\scala\Sample_programs.class
+[debug] 	  C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes\com\bala\scala\Sample_programs.class
+[debug] 	Testing$.class
+[debug] 	  C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes\Testing$.class
+[debug] 	Testing.class
+[debug] 	  C:\Users\b0p03a0\IdeaProjects\Practice\target\scala-2.11\classes\Testing.class
+[debug] Done packaging.
